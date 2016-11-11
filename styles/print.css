@@ -1,0 +1,62 @@
+body {
+	overflow: visible;
+	background: #fff;
+	font-size: 1.2rem;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 1.4rem;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 1.3rem;
+}
+
+a {
+	border-bottom: 0;
+	color: #38404c;
+}
+
+p {
+	margin-top: 0;
+	padding-top: 6px;
+}
+
+.print-padding {
+	padding: 0 !important;
+}
+
+
+.oversized-text {
+	font-size: 2.5rem;
+}
+
+.hero {
+	padding-bottom: 0;
+}
+
+.standard-space-above {
+	padding-top: 12px;
+}
+
+
+.small-space-above {
+	padding-top: 12px;
+}
+
+.standard-space-below {
+	padding-bottom: 12px;
+}
+
+.contrast-fill {
+	background: #fff;
+}
+
+.contrast-text,
+.contrast-text a {
+	color: #38404c;
+}

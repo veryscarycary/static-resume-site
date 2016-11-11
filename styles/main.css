@@ -1,0 +1,192 @@
+html {
+	font-size: 62.5%;
+	height: 100%;
+	background: none;
+}
+
+body {
+	min-height: 100%;
+	line-height: 1.5;
+	font-size: 1.6em;
+	font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+   	font-weight: 300;
+   	color: #38404c;
+   	background: #eee;
+}
+
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+a {
+	text-decoration: none;
+	color: #c8025c;
+	border-bottom: 1px dotted #c8025c;
+}
+
+a:hover {
+	color: #c8025c;
+	border-bottom: 1px solid #c8025c;
+}
+
+p {
+	margin-top: 0;
+	padding-top: 12px;
+}
+
+h1,
+h2 {
+	font-weight: normal;
+	font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 12px
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 6px;
+}
+
+.oversized-text {
+	font-size: 5rem;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.contrast-text {
+	color: #fff;
+}
+
+.contrast-text a,
+.contrast-text a:hover {
+	color: #9f5a79;
+	border-bottom: 1px dotted #9f5a79;
+}
+
+.contrast-text a:hover {
+	border-bottom: 1px solid #9f5a79;
+}
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+.full-width {
+	float: left;
+	width: 100%;
+}
+
+.col-width {
+	margin: 0 auto;
+	max-width: 780px;
+	padding: 0 10px;
+}
+
+.colums {
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+
+.standard-space-above {
+	padding-top: 48px;
+}
+
+.small-space-above {
+	padding-top: 24px;
+}
+
+.standard-space-below {
+	padding-bottom: 48px;
+}
+
+.contrast-fill {
+	background: #38404c;
+}
+
+.line-below {
+	border-bottom: 1px solid;
+}
+
+
+/* ==========================================================================
+   Helpers
+   ========================================================================== */
+
+.hide-text {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+.hide-text-aid:focus {
+	top: 0;
+	left: 0;
+}
+
+.hide-text-aid:focus {
+  top: 0;
+  left: 0;
+}
+
+/* ==========================================================================
+   Images
+   ========================================================================== */
+
+
+.flexFlowCenter {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.flexRow {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.marginLeft {
+  margin-left: 20px;
+}
+
+.underlinedTitle {
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+#athena {
+	height: 400px;
+	width: 200px;
+}
+
+#flash {
+	height: 200px;
+	width: 400px;
+}
+
+#frenemies {
+	height: 400px;
+	width: 200px;
+}
+
+#toGo {
+	height: 200px;
+	width: 320px;
+}
